@@ -20,10 +20,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.slf4j:slf4j-nop:1.7.25'
     compile 'com.parse.bolts:bolts-android:1.1.2'
+    compile 'commons-io:commons-io:2.4'
     compile files('libs/commons-lang3-3.0.jar')
     compile files('libs/commons-collections4-4.0.jar')
-    compile 'commons-io:commons-io:2.4'
 }
 
 publish {
